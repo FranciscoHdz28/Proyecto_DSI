@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e4f2mue7ry42kzLVuLKEjYgwDLlQ4t3cFW6fn5hTKt+rsrtNcdK2UwB+1Z+Qe6Upz3b6aqAXluwhe1uY35yTvA==",
+  "dgSpecHash": "TMGRcDbngto1Ub+GfzH3lISOoqLkkG7LF/K1U2POemJvh0LbOhgvbXiXhLmeBhnBZTTqNiXaQz3sX3UqXwr7Ew==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios\\TeatroAPI\\TeatroApi.BussinessLogic.Interface\\TeatroAPI.BussinessLogic.Interface.csproj",
+  "projectFilePath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroApi.BussinessLogic.Interface\\TeatroAPI.BussinessLogic.Interface.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

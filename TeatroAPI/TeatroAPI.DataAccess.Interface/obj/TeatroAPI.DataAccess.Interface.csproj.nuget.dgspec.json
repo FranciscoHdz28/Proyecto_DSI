@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj": {}
+    "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj": {}
   },
   "projects": {
-    "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj": {
+    "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj",
+        "projectUniqueName": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj",
         "projectName": "TeatroAPI.DataAccess.Interface",
-        "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj",
+        "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\obj\\",
+        "outputPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {
-                "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj"
+              "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {
+                "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {
+    "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj",
+        "projectUniqueName": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj",
         "projectName": "TeatroAPI.Model",
-        "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj",
+        "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\obj\\",
+        "outputPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

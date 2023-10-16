@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nt5T3HCRfhW5G2OX2617tAfNp8WeKk3BWgYAxh9coRfvpqV/ovou4URIkjm4eH3gHehvXcBIIM97K5J6C68Anw==",
+  "dgSpecHash": "Q7n4BdXMfc9C+ol+skqDfrxNKPqjGYDI8tzqd40LS6fgVzHX1s8lutiG9FflZg4PVkjX3SIEUnL6hAi4HVEBhA==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess\\TeatroAPI.DataAccess.csproj",
+  "projectFilePath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess\\TeatroAPI.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\dapper\\2.1.4\\dapper.2.1.4.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",

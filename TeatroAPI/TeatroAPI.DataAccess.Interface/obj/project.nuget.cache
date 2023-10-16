@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NKf7VvmrYXWD6IelIYbHBnGQvDtc/Lm14BadFDtSFEhSc7zofhcJ4vYduCJ3hzFTELzu7hJYC+hOaS/yz+UWkw==",
+  "dgSpecHash": "/MknZKF2YcnufLFg0f0hLlVHNBUb8qCCYCRzD8zD55G3Cy/BTv1SBocZR6nkR1ZpUOXEl0wCyJq+CQ1QNw6t5w==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj",
+  "projectFilePath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

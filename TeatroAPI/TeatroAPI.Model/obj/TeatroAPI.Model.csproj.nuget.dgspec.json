@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {}
+    "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {}
   },
   "projects": {
-    "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {
+    "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj",
+        "projectUniqueName": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj",
         "projectName": "TeatroAPI.Model",
-        "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj",
+        "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\obj\\",
+        "outputPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

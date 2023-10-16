@@ -1195,11 +1195,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repositorios\\TeatroAPI\\TeatroAPI\\TeatroAPI.csproj",
+      "projectUniqueName": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI\\TeatroAPI.csproj",
       "projectName": "TeatroAPI",
-      "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI\\TeatroAPI.csproj",
+      "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI\\TeatroAPI.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI\\obj\\",
+      "outputPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1216,20 +1216,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Repositorios\\TeatroAPI\\TeatroApi.BussinessLogic.Interface\\TeatroAPI.BussinessLogic.Interface.csproj": {
-              "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroApi.BussinessLogic.Interface\\TeatroAPI.BussinessLogic.Interface.csproj"
+            "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroApi.BussinessLogic.Interface\\TeatroAPI.BussinessLogic.Interface.csproj": {
+              "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroApi.BussinessLogic.Interface\\TeatroAPI.BussinessLogic.Interface.csproj"
             },
-            "C:\\Repositorios\\TeatroAPI\\TeatroAPI.BussinessLogic\\TeatroAPI.BussinessLogic.csproj": {
-              "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.BussinessLogic\\TeatroAPI.BussinessLogic.csproj"
+            "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.BussinessLogic\\TeatroAPI.BussinessLogic.csproj": {
+              "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.BussinessLogic\\TeatroAPI.BussinessLogic.csproj"
             },
-            "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj": {
-              "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj"
+            "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj": {
+              "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj"
             },
-            "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess\\TeatroAPI.DataAccess.csproj": {
-              "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess\\TeatroAPI.DataAccess.csproj"
+            "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess\\TeatroAPI.DataAccess.csproj": {
+              "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.DataAccess\\TeatroAPI.DataAccess.csproj"
             },
-            "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {
-              "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj"
+            "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj": {
+              "projectPath": "C:\\Repositorios\\Proyecto_DSI\\TeatroAPI\\TeatroAPI.Model\\TeatroAPI.Model.csproj"
             }
           }
         }

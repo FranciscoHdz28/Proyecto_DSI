@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TeatroAPI.DataAccess.Interface
-build_property.ProjectDir = C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess.Interface\
+build_property.ProjectDir = C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.DataAccess.Interface\
