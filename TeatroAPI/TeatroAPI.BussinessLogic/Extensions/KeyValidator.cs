@@ -65,7 +65,7 @@ namespace TeatroAPI.BussinessLogic.Extensions
 
 
 
-        public static class ClaveUtils
+        private static class ClaveUtils
         {
             public static bool ContieneCaracterEspecial(string clave)
             {
