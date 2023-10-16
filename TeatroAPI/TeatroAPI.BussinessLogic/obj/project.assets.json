@@ -1,0 +1,170 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.AspNetCore.DataProtection.Abstractions/7.0.12": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "TeatroAPI.BussinessLogic.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TeatroAPI.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeatroAPI.BussinessLogic.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeatroAPI.BussinessLogic.Interface.dll": {}
+        }
+      },
+      "TeatroAPI.DataAccess.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "TeatroAPI.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TeatroAPI.DataAccess.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeatroAPI.DataAccess.Interface.dll": {}
+        }
+      },
+      "TeatroAPI.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/TeatroAPI.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TeatroAPI.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNetCore.DataProtection.Abstractions/7.0.12": {
+      "sha512": "O+tOtrqZfq8VsuPD3ArNdOO0zH8UXKxflv6ActUvvws+ZK2YTLP6XW+GllDBVPft8YE1mBAduLdt3W+6Ha82hw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.dataprotection.abstractions/7.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net462/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+        "lib/net462/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
+        "lib/net7.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+        "lib/net7.0/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.xml",
+        "microsoft.aspnetcore.dataprotection.abstractions.7.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.dataprotection.abstractions.nuspec"
+      ]
+    },
+    "TeatroAPI.BussinessLogic.Interface/1.0.0": {
+      "type": "project",
+      "path": "../TeatroApi.BussinessLogic.Interface/TeatroAPI.BussinessLogic.Interface.csproj",
+      "msbuildProject": "../TeatroApi.BussinessLogic.Interface/TeatroAPI.BussinessLogic.Interface.csproj"
+    },
+    "TeatroAPI.DataAccess.Interface/1.0.0": {
+      "type": "project",
+      "path": "../TeatroAPI.DataAccess.Interface/TeatroAPI.DataAccess.Interface.csproj",
+      "msbuildProject": "../TeatroAPI.DataAccess.Interface/TeatroAPI.DataAccess.Interface.csproj"
+    },
+    "TeatroAPI.Model/1.0.0": {
+      "type": "project",
+      "path": "../TeatroAPI.Model/TeatroAPI.Model.csproj",
+      "msbuildProject": "../TeatroAPI.Model/TeatroAPI.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.AspNetCore.DataProtection.Abstractions >= 7.0.12",
+      "TeatroAPI.BussinessLogic.Interface >= 1.0.0",
+      "TeatroAPI.DataAccess.Interface >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\User\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.BussinessLogic\\TeatroAPI.BussinessLogic.csproj",
+      "projectName": "TeatroAPI.BussinessLogic",
+      "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.BussinessLogic\\TeatroAPI.BussinessLogic.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.BussinessLogic\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Repositorios\\TeatroAPI\\TeatroApi.BussinessLogic.Interface\\TeatroAPI.BussinessLogic.Interface.csproj": {
+              "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroApi.BussinessLogic.Interface\\TeatroAPI.BussinessLogic.Interface.csproj"
+            },
+            "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj": {
+              "projectPath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.DataAccess.Interface\\TeatroAPI.DataAccess.Interface.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.DataProtection.Abstractions": {
+            "target": "Package",
+            "version": "[7.0.12, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

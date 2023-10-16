@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeatroAPI", "TeatroAPI\TeatroAPI.csproj", "{DA1447DF-895A-4560-B71E-7EB1AE7116B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeatroAPI.Model", "TeatroAPI.Model\TeatroAPI.Model.csproj", "{91FB72A5-15A3-47E4-AF77-B77B157E6C4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeatroAPI.DataAccess.Interface", "TeatroAPI.DataAccess.Interface\TeatroAPI.DataAccess.Interface.csproj", "{0BED9661-2E96-4A62-9ACE-510972FE3821}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeatroAPI.DataAccess", "TeatroAPI.DataAccess\TeatroAPI.DataAccess.csproj", "{9E9CC06B-0E62-47B6-AC56-00E78AE3DE7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeatroAPI.BussinessLogic.Interface", "TeatroApi.BussinessLogic.Interface\TeatroAPI.BussinessLogic.Interface.csproj", "{19057C01-47E3-472F-8B8A-0885996F0E3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeatroAPI.BussinessLogic", "TeatroAPI.BussinessLogic\TeatroAPI.BussinessLogic.csproj", "{5C412E24-F115-4B89-90F9-ED91ECE61C8E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA1447DF-895A-4560-B71E-7EB1AE7116B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA1447DF-895A-4560-B71E-7EB1AE7116B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA1447DF-895A-4560-B71E-7EB1AE7116B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA1447DF-895A-4560-B71E-7EB1AE7116B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91FB72A5-15A3-47E4-AF77-B77B157E6C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FB72A5-15A3-47E4-AF77-B77B157E6C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FB72A5-15A3-47E4-AF77-B77B157E6C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FB72A5-15A3-47E4-AF77-B77B157E6C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BED9661-2E96-4A62-9ACE-510972FE3821}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BED9661-2E96-4A62-9ACE-510972FE3821}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BED9661-2E96-4A62-9ACE-510972FE3821}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BED9661-2E96-4A62-9ACE-510972FE3821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9CC06B-0E62-47B6-AC56-00E78AE3DE7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9CC06B-0E62-47B6-AC56-00E78AE3DE7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9CC06B-0E62-47B6-AC56-00E78AE3DE7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9CC06B-0E62-47B6-AC56-00E78AE3DE7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19057C01-47E3-472F-8B8A-0885996F0E3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19057C01-47E3-472F-8B8A-0885996F0E3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19057C01-47E3-472F-8B8A-0885996F0E3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19057C01-47E3-472F-8B8A-0885996F0E3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C412E24-F115-4B89-90F9-ED91ECE61C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C412E24-F115-4B89-90F9-ED91ECE61C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C412E24-F115-4B89-90F9-ED91ECE61C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C412E24-F115-4B89-90F9-ED91ECE61C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67254091-8E89-45E2-B9D4-F0A39405FFC0}
+	EndGlobalSection
+EndGlobal

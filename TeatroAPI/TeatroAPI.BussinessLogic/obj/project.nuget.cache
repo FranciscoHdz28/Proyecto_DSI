@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZxTJ06pK2siRVSB3ahP0ldwG5pZGocOR+bZG2QA0TjXsxXcTdg6OCggndEhh0hXf+fd8j8kf44yML1whHNDkQA==",
+  "success": true,
+  "projectFilePath": "C:\\Repositorios\\TeatroAPI\\TeatroAPI.BussinessLogic\\TeatroAPI.BussinessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.dataprotection.abstractions\\7.0.12\\microsoft.aspnetcore.dataprotection.abstractions.7.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

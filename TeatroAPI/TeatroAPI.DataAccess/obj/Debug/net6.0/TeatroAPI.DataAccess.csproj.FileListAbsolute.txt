@@ -1,0 +1,17 @@
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\bin\Debug\net6.0\TeatroAPI.DataAccess.deps.json
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\bin\Debug\net6.0\TeatroAPI.DataAccess.dll
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\bin\Debug\net6.0\TeatroAPI.DataAccess.pdb
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\bin\Debug\net6.0\TeatroAPI.DataAccess.Interface.dll
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\bin\Debug\net6.0\TeatroAPI.Model.dll
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\bin\Debug\net6.0\TeatroAPI.DataAccess.Interface.pdb
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\bin\Debug\net6.0\TeatroAPI.Model.pdb
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\TeatroAPI.DataAccess.csproj.AssemblyReference.cache
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\TeatroAPI.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\TeatroAPI.DataAccess.AssemblyInfoInputs.cache
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\TeatroAPI.DataAccess.AssemblyInfo.cs
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\TeatroAPI.DataAccess.csproj.CoreCompileInputs.cache
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\TeatroAPI.DataAccess.csproj.CopyComplete
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\TeatroAPI.DataAccess.dll
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\refint\TeatroAPI.DataAccess.dll
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\TeatroAPI.DataAccess.pdb
+C:\Repositorios\TeatroAPI\TeatroAPI.DataAccess\obj\Debug\net6.0\ref\TeatroAPI.DataAccess.dll

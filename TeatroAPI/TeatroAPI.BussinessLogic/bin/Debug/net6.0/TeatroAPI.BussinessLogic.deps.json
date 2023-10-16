@@ -1,0 +1,79 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TeatroAPI.BussinessLogic/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.DataProtection.Abstractions": "7.0.12",
+          "TeatroAPI.BussinessLogic.Interface": "1.0.0",
+          "TeatroAPI.DataAccess.Interface": "1.0.0"
+        },
+        "runtime": {
+          "TeatroAPI.BussinessLogic.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.DataProtection.Abstractions/7.0.12": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.1223.47922"
+          }
+        }
+      },
+      "TeatroAPI.BussinessLogic.Interface/1.0.0": {
+        "dependencies": {
+          "TeatroAPI.Model": "1.0.0"
+        },
+        "runtime": {
+          "TeatroAPI.BussinessLogic.Interface.dll": {}
+        }
+      },
+      "TeatroAPI.DataAccess.Interface/1.0.0": {
+        "dependencies": {
+          "TeatroAPI.Model": "1.0.0"
+        },
+        "runtime": {
+          "TeatroAPI.DataAccess.Interface.dll": {}
+        }
+      },
+      "TeatroAPI.Model/1.0.0": {
+        "runtime": {
+          "TeatroAPI.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TeatroAPI.BussinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.DataProtection.Abstractions/7.0.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-O+tOtrqZfq8VsuPD3ArNdOO0zH8UXKxflv6ActUvvws+ZK2YTLP6XW+GllDBVPft8YE1mBAduLdt3W+6Ha82hw==",
+      "path": "microsoft.aspnetcore.dataprotection.abstractions/7.0.12",
+      "hashPath": "microsoft.aspnetcore.dataprotection.abstractions.7.0.12.nupkg.sha512"
+    },
+    "TeatroAPI.BussinessLogic.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TeatroAPI.DataAccess.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TeatroAPI.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

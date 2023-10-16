@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.DataProtection.Abstractions" Version="7.0.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeatroApi.BussinessLogic.Interface\TeatroAPI.BussinessLogic.Interface.csproj" />
+    <ProjectReference Include="..\TeatroAPI.BussinessLogic\TeatroAPI.BussinessLogic.csproj" />
+    <ProjectReference Include="..\TeatroAPI.DataAccess.Interface\TeatroAPI.DataAccess.Interface.csproj" />
+    <ProjectReference Include="..\TeatroAPI.DataAccess\TeatroAPI.DataAccess.csproj" />
+    <ProjectReference Include="..\TeatroAPI.Model\TeatroAPI.Model.csproj" />
+  </ItemGroup>
+
+</Project>

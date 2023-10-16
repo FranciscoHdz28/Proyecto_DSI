@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TeatroAPI.BussinessLogic.Interface/1.0.0": {
+        "dependencies": {
+          "TeatroAPI.Model": "1.0.0"
+        },
+        "runtime": {
+          "TeatroAPI.BussinessLogic.Interface.dll": {}
+        }
+      },
+      "TeatroAPI.Model/1.0.0": {
+        "runtime": {
+          "TeatroAPI.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TeatroAPI.BussinessLogic.Interface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TeatroAPI.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
