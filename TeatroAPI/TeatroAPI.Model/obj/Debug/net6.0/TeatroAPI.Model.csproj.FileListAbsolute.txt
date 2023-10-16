@@ -9,3 +9,14 @@ C:\Repositorios\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\TeatroAPI.Model.dll
 C:\Repositorios\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\refint\TeatroAPI.Model.dll
 C:\Repositorios\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\TeatroAPI.Model.pdb
 C:\Repositorios\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\ref\TeatroAPI.Model.dll
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\bin\Debug\net6.0\TeatroAPI.Model.deps.json
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\bin\Debug\net6.0\TeatroAPI.Model.dll
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\bin\Debug\net6.0\TeatroAPI.Model.pdb
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\TeatroAPI.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\TeatroAPI.Model.AssemblyInfoInputs.cache
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\TeatroAPI.Model.AssemblyInfo.cs
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\TeatroAPI.Model.csproj.CoreCompileInputs.cache
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\TeatroAPI.Model.dll
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\refint\TeatroAPI.Model.dll
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\TeatroAPI.Model.pdb
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI.Model\obj\Debug\net6.0\ref\TeatroAPI.Model.dll

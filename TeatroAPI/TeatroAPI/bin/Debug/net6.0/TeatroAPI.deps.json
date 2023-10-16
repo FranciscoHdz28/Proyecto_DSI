@@ -196,7 +196,7 @@
           "TeatroAPI.Model": "1.0.0"
         },
         "runtime": {
-          "TeatroApi.BussinessLogic.Interface.dll": {}
+          "TeatroAPI.BussinessLogic.Interface.dll": {}
         }
       },
       "TeatroAPI.DataAccess/1.0.0": {
