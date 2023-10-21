@@ -26,7 +26,7 @@ namespace TeatroAPI.Controllers
         }
 
         [HttpPost("Autenticar")]
-        public IActionResult Autenticar([FromBody] Credential credential)
+        public async Task<ResponseGeneric<TokenResult>> Autenticar([FromBody] Credential credential)
         {
             if (credential.CodEmpleado == "ADMIN" && credential.Contrasenia == "123")
             {
@@ -52,12 +52,12 @@ namespace TeatroAPI.Controllers
                     Status = ResponseStatus.Success
                 };
 
-                return StatusCode(StatusCodes.Status200OK, response);
+                return response;
             }
             else
             {
                 var fail = new ResponseGeneric<TokenResult> { CurrentException = "Credenciales no válidas"};
-                return StatusCode(StatusCodes.Status401Unauthorized, fail);
+                return fail;
             }
         }
 
