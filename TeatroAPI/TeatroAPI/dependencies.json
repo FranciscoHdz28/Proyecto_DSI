@@ -1,0 +1,19 @@
+{
+  "DependencyConfiguration": [
+    {
+      "From": "TeatroAPI.DataAccess.Interface.IEmpleado, TeatroAPI.DataAccess.Interface",
+      "To": "TeatroAPI.DataAccess.Empleado, TeatroAPI.DataAccess",
+      "DependencyType": "Transient"
+    },
+    {
+      "From": "TeatroAPI.BussinessLogic.Interface.IEmpleado, TeatroAPI.BussinessLogic.Interface",
+      "To": "TeatroAPI.BussinessLogic.Empleado, TeatroAPI.BussinessLogic",
+      "DependencyType": "Scoped"
+    },
+    {
+      "From": "TeatroAPI.BussinessLogic.Interface.ISeguridad, TeatroAPI.BussinessLogic.Interface",
+      "To": "TeatroAPI.BussinessLogic.Seguridad, TeatroAPI.BussinessLogic",
+      "DependencyType": "Scoped"
+    }
+  ]
+}

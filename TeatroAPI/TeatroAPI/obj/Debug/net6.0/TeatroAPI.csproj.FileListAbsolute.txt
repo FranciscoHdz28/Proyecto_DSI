@@ -110,3 +110,4 @@ C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI\bin\Debug\net6.0\Microsoft.Iden
 C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Repositorios\Proyecto_DSI\TeatroAPI\TeatroAPI\bin\Debug\net6.0\dependencies.json

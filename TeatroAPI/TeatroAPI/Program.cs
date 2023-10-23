@@ -8,6 +8,8 @@ using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using Microsoft.OpenApi.Models;
 using System.Security.Cryptography.Xml;
+using System.Text.Json;
+using TeatroAPI.Model.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -70,10 +72,35 @@ builder.Services.AddSwaggerGen();
 // Registra la dependencia ConnectionManager
 builder.Services.AddScoped<IConnectionManager, ConnectionManager>();
 
-// Registra la dependencia Empleado
-builder.Services.AddScoped<TeatroAPI.DataAccess.Interface.IEmpleado, TeatroAPI.DataAccess.Empleado>();
-builder.Services.AddScoped<TeatroAPI.BussinessLogic.Interface.IEmpleado, TeatroAPI.BussinessLogic.Empleado>();
-builder.Services.AddScoped<TeatroAPI.BussinessLogic.Interface.ISeguridad, TeatroAPI.BussinessLogic.Seguridad>();
+// Registra las dependencias desde el archivo dependencies.json
+var dependencyList = LoadDependencyConfiguration();
+foreach (var dependencyConfig in dependencyList.DependencyConfiguration)
+{
+    var fromType = Type.GetType(dependencyConfig.From);
+    var toType = Type.GetType(dependencyConfig.To);
+    if (fromType != null && toType != null)
+    {
+        if (dependencyConfig.DependencyType == "Scoped")
+        {
+            builder.Services.AddScoped(fromType, toType);
+        }
+        else if (dependencyConfig.DependencyType == "Transient")
+        {
+            builder.Services.AddTransient(fromType, toType);
+        }
+        else if (dependencyConfig.DependencyType == "Singleton")
+        {
+            builder.Services.AddSingleton(fromType, toType);
+        }
+    }
+}
+
+DependencyList LoadDependencyConfiguration()
+{
+    var jsonString = File.ReadAllText("dependencies.json");
+    var configuration = JsonSerializer.Deserialize<DependencyList>(jsonString);
+    return configuration;
+}
 
 var app = builder.Build();
 
