@@ -17,47 +17,75 @@ namespace TeatroAPI.Controllers
         private readonly string _secret;
         private readonly IEmpleado _empleado;
         private readonly ISeguridad _seguridad;
+        private readonly IInicioSesion _login;
 
-        public InicioSesionController(IConfiguration config, IEmpleado empleado, ISeguridad seguridad)
+        public InicioSesionController(IConfiguration config, IEmpleado empleado, ISeguridad seguridad,
+                                        IInicioSesion login)
         {
             _secret = config.GetSection("TokenSettings").GetSection("SecretKey").ToString()!;
             _empleado = empleado;
             _seguridad = seguridad;
+            _login = login;
         }
 
         [HttpPost("Autenticar")]
         public async Task<ResponseGeneric<TokenResult>> Autenticar([FromBody] Credential credential)
         {
-            if (credential.CodEmpleado == "ADMIN" && credential.Contrasenia == "123")
+            try
             {
-                var keyBytes = Encoding.ASCII.GetBytes(_secret);
-                var claims = new ClaimsIdentity();
-                claims.AddClaim(new Claim(ClaimTypes.NameIdentifier, credential.CodEmpleado));
-
-                var tokenDescriptor = new SecurityTokenDescriptor
+                if (!ModelState.IsValid)
                 {
-                    Subject = claims,
-                    Expires = DateTime.UtcNow.AddMinutes(5),
-                    SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(keyBytes), SecurityAlgorithms.HmacSha256Signature)
-                };
+                    return new ResponseGeneric<TokenResult>()
+                    {
+                        Status = ResponseStatus.Failed,
+                        CurrentException = "Modelo no válido",
+                    };
+                }
 
-                var tokenHandler = new JwtSecurityTokenHandler();
-                var tokenConfig = tokenHandler.CreateToken(tokenDescriptor);
+                var claveEncriptada = _seguridad.EncriptarClave(credential.Contrasenia!);
+                credential.Contrasenia = claveEncriptada.Response;
+                var response = _login.Autenticar(credential);
 
-                string tokencreado = tokenHandler.WriteToken(tokenConfig);
-
-                var response = new ResponseGeneric<TokenResult>
+                if (response.Status == ResponseStatus.Failed)
                 {
-                    Response = new TokenResult { Success = true, Token = tokencreado },
-                    Status = ResponseStatus.Success
-                };
+                    return new ResponseGeneric<TokenResult>() { CurrentException = response.CurrentException };
+                }
 
-                return response;
+                if (response.Response!.FirstOrDefault()!.Autenticado)
+                {
+                    var keyBytes = Encoding.ASCII.GetBytes(_secret);
+                    var claims = new ClaimsIdentity();
+                    claims.AddClaim(new Claim(ClaimTypes.NameIdentifier, credential.CodEmpleado!));
+
+                    var tokenDescriptor = new SecurityTokenDescriptor
+                    {
+                        Subject = claims,
+                        Expires = DateTime.UtcNow.AddMinutes(5),
+                        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(keyBytes), SecurityAlgorithms.HmacSha256Signature)
+                    };
+
+                    var tokenHandler = new JwtSecurityTokenHandler();
+                    var tokenConfig = tokenHandler.CreateToken(tokenDescriptor);
+
+                    string tokencreado = tokenHandler.WriteToken(tokenConfig);
+
+                    var result = new ResponseGeneric<TokenResult>
+                    {
+                        Response = new TokenResult { Success = true, Token = tokencreado },
+                        Status = ResponseStatus.Success
+                    };
+
+                    return result;
+                }
+                else
+                {
+                    var fail = new ResponseGeneric<TokenResult> { CurrentException = response.Response!.FirstOrDefault()!.Mensaje };
+                    return fail;
+                }
             }
-            else
+            catch (Exception ex)
             {
-                var fail = new ResponseGeneric<TokenResult> { CurrentException = "Credenciales no válidas"};
-                return fail;
+                return new ResponseGeneric<TokenResult> { };
             }
         }
 

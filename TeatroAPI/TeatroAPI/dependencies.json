@@ -6,6 +6,11 @@
       "DependencyType": "Transient"
     },
     {
+      "From": "TeatroAPI.DataAccess.Interface.IInicioSesion, TeatroAPI.DataAccess.Interface",
+      "To": "TeatroAPI.DataAccess.InicioSesion, TeatroAPI.DataAccess",
+      "DependencyType": "Transient"
+    },
+    {
       "From": "TeatroAPI.BussinessLogic.Interface.IEmpleado, TeatroAPI.BussinessLogic.Interface",
       "To": "TeatroAPI.BussinessLogic.Empleado, TeatroAPI.BussinessLogic",
       "DependencyType": "Scoped"
@@ -13,6 +18,11 @@
     {
       "From": "TeatroAPI.BussinessLogic.Interface.ISeguridad, TeatroAPI.BussinessLogic.Interface",
       "To": "TeatroAPI.BussinessLogic.Seguridad, TeatroAPI.BussinessLogic",
+      "DependencyType": "Scoped"
+    },
+    {
+      "From": "TeatroAPI.BussinessLogic.Interface.IInicioSesion, TeatroAPI.BussinessLogic.Interface",
+      "To": "TeatroAPI.BussinessLogic.InicioSesion, TeatroAPI.BussinessLogic",
       "DependencyType": "Scoped"
     }
   ]
