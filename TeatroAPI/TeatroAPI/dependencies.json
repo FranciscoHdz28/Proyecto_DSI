@@ -24,6 +24,11 @@
       "From": "TeatroAPI.BussinessLogic.Interface.IInicioSesion, TeatroAPI.BussinessLogic.Interface",
       "To": "TeatroAPI.BussinessLogic.InicioSesion, TeatroAPI.BussinessLogic",
       "DependencyType": "Scoped"
+    },
+    {
+      "From": "TeatroAPI.BussinessLogic.Interface.ITokenBuilder, TeatroAPI.BussinessLogic.Interface",
+      "To": "TeatroAPI.BussinessLogic.TokenBuilder, TeatroAPI.BussinessLogic",
+      "DependencyType": "Scoped"
     }
   ]
 }

@@ -274,6 +274,9 @@
       "TeatroAPI.BussinessLogic/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.DataProtection.Abstractions": "7.0.12",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0",
+          "Microsoft.IdentityModel.Tokens": "7.0.2",
+          "System.IdentityModel.Tokens.Jwt": "7.0.2",
           "TeatroAPI.BussinessLogic.Interface": "1.0.0",
           "TeatroAPI.DataAccess.Interface": "1.0.0"
         },

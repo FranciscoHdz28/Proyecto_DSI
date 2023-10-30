@@ -18,14 +18,18 @@ namespace TeatroAPI.Controllers
         private readonly IEmpleado _empleado;
         private readonly ISeguridad _seguridad;
         private readonly IInicioSesion _login;
+        private readonly IConfiguration _config;
+        private readonly ITokenBuilder _tokenBuilder;
 
         public InicioSesionController(IConfiguration config, IEmpleado empleado, ISeguridad seguridad,
-                                        IInicioSesion login)
+                                        IInicioSesion login, IConfiguration configuration, ITokenBuilder tokenBuilder)
         {
             _secret = config.GetSection("TokenSettings").GetSection("SecretKey").ToString()!;
             _empleado = empleado;
             _seguridad = seguridad;
             _login = login;
+            _config = configuration;
+            _tokenBuilder = tokenBuilder;
         }
 
         [HttpPost("Autenticar")]
@@ -53,15 +57,19 @@ namespace TeatroAPI.Controllers
 
                 if (response.Response!.FirstOrDefault()!.Autenticado)
                 {
-                    var keyBytes = Encoding.ASCII.GetBytes(_secret);
+                    //var keyBytes = Encoding.ASCII.GetBytes(_secret);
                     var claims = new ClaimsIdentity();
                     claims.AddClaim(new Claim(ClaimTypes.NameIdentifier, credential.CodEmpleado!));
 
+                    var key = _config["Jwt:Key"];
+                    var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key!));
+                    var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature);
                     var tokenDescriptor = new SecurityTokenDescriptor
                     {
-                        Subject = claims,
-                        Expires = DateTime.UtcNow.AddMinutes(5),
-                        SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(keyBytes), SecurityAlgorithms.HmacSha256Signature)
+                        Issuer = _config["Jwt:Issuer"],
+                        Audience = _config["Jwt:Audience"],
+                        Expires = DateTime.UtcNow.AddMinutes(60),
+                        SigningCredentials = credentials
                     };
 
                     var tokenHandler = new JwtSecurityTokenHandler();
@@ -118,5 +126,19 @@ namespace TeatroAPI.Controllers
                 return new ResponseGeneric<string>(ex.Message);
             }
         }
+
+        //[HttpGet("ObtenerApplicationToken")]
+        //public string ObtenerApplicationToken()
+        //{
+        //    try
+        //    {
+        //        var result = _tokenBuilder.ObtenerApplicationToken();
+        //        return result;
+        //    }
+        //    catch(Exception ex)
+        //    {
+        //        return ex.Message;
+        //    }
+        //}
     }
 }

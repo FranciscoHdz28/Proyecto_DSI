@@ -15,9 +15,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
-builder.Configuration.AddJsonFile("appsettings.json");
-var secret = builder.Configuration.GetSection("TokenSettings").GetSection("SecretKey").ToString();
-var keyBytes = Encoding.UTF8.GetBytes(secret!);
+//builder.Configuration.AddJsonFile("appsettings.json");
+//var secret = builder.Configuration.GetSection("TokenSettings").GetSection("SecretKey").ToString();
+//var keyBytes = Encoding.UTF8.GetBytes(secret!);
 
 builder.Services.AddAuthentication(config =>
 {
@@ -29,10 +29,13 @@ builder.Services.AddAuthentication(config =>
     config.SaveToken = true;
     config.TokenValidationParameters = new TokenValidationParameters
     {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(keyBytes),
-        ValidateIssuer = false,
-        ValidateAudience = false
+        ValidIssuer = builder.Configuration["Jwt:Issuer"],
+        ValidAudience = builder.Configuration["Jwt:Audience"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
     };
 });
 
