@@ -87,7 +87,10 @@ namespace TeatroAPI.Controllers
                 }
                 else
                 {
-                    var fail = new ResponseGeneric<TokenResult> { CurrentException = response.Response!.FirstOrDefault()!.Mensaje };
+                    var fail = new ResponseGeneric<TokenResult> { 
+                        Status = ResponseStatus.Failed,
+                        CurrentException = response.Response!.FirstOrDefault()!.Mensaje 
+                    };
                     return fail;
                 }
             }
