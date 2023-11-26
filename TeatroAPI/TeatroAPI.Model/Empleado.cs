@@ -18,5 +18,7 @@
         public string? Direccion { get; set; }
         public string? TelMovil { get; set; }
         public int? IntentosAutenticacion { get; set; }
+        public bool? ClaveTemporal {  get; set; }
+        public int? IdRol {  get; set; }
     }
 }

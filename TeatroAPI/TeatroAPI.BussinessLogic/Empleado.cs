@@ -22,5 +22,41 @@ namespace TeatroAPI.BussinessLogic
                 return new ResponseGeneric<IEnumerable<Model.Empleado>>(ex);
             }
         }
+
+        public ResponseGeneric<Model.Empleado> GetInfoEmpleado(string CodEmpleado)
+        {
+            try
+            {
+                return _empleado.GetInfoEmpleado(CodEmpleado);
+            }
+            catch (Exception ex)
+            {
+                return new ResponseGeneric<Model.Empleado>(ex);
+            }
+        }
+
+        public ResponseGeneric<IEnumerable<Model.Role>> GetRoles()
+        {
+            try
+            {
+                return _empleado.GetRoles();
+            }
+            catch (Exception ex)
+            {
+                return new ResponseGeneric<IEnumerable<Model.Role>>(ex);
+            }
+        }
+
+        public ResponseGeneric<Model.Empleado> SaveInfoEmpleado(Model.Empleado empleado)
+        {
+            try
+            {
+                return _empleado.SaveInfoEmpleado(empleado);
+            }
+            catch (Exception ex)
+            {
+                return new ResponseGeneric<Model.Empleado>(ex);
+            }
+        }
     }
 }

@@ -11,5 +11,8 @@ namespace TeatroAPI.DataAccess.Interface
     public interface IEmpleado
     {
         ResponseGeneric<IEnumerable<Empleado>> GetAllEmpleados();
+        ResponseGeneric<Model.Empleado> GetInfoEmpleado(string CodEmpleado);
+        ResponseGeneric<IEnumerable<Model.Role>> GetRoles();
+        ResponseGeneric<Model.Empleado> SaveInfoEmpleado(Model.Empleado empleado);
     }
 }
